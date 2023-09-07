@@ -1,0 +1,39 @@
+.upper_page {
+    background-color: blue;
+}
+.upper_button {
+    display: inline-block;
+}
+
+ul, li {
+    list-style-type: none;
+    display: inline;
+}
+
+nav {
+    text-align: right;
+}
+
+#center_text {
+    text-align: center;
+}
+
+#main_container {
+    display: flex;
+    justify-content: center;
+}
+
+#main_box {
+    border:   5px solid blue;
+    background: wheat;
+    height: 100px;
+    width: 80px;
+    margin: 5px 5px 5px 5px;
+    flex-basis: auto;
+    
+}
+
+.call_action {
+    background-color: blue;
+    display: flex;
+}
