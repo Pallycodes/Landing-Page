@@ -1,6 +1,4 @@
-.upper_page {
-    background-color: blue;
-}
+
 .upper_button {
     display: inline-block;
 }
@@ -34,6 +32,26 @@ nav {
 }
 
 .call_action {
+    height: 100px;
+    width: 500px;
     background-color: blue;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.white_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awsome {
+    display:flex;
+    justify-content: center;
+}
+
+.awsome_one {
+    width: 500px;
 }
